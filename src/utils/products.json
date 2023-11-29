@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Propipeta automática DLab Levo Plus 0,1 - 100ml",
+      "price": "USD 434,00 + IVA (21%)",
+      "thumbnail": "https://www.onelab.com.ar/propipeta-automatica-dlab-levo-plus",
+      "image": "https://www.onelab.com.ar/images/thumbs/0014238_propipeta-automatica-dlab-levo-plus-01-100ml_510.jpeg",
+      "category": "Promociones",
+      "stock": 36
+    },
+    {
+      "id": 2,
+      "name": "Dispensador digital dFlow 0,1 - 99,9 ml",
+      "price": "USD 4.235,20 + IVA (10,5%)",
+      "thumbnail": "https://www.onelab.com.ar/bureta-digital-dlab-dflow-01-999-ml",
+      "image": "https://www.onelab.com.ar/images/thumbs/0014246_dispensador-digital-dflow-01-999-ml_510.jpeg",
+      "category": "Promociones",
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "name": "Balanza portátil Ohaus CR2200 1 gr. / 2200 gr.",
+      "price": "USD 233,44 + IVA (10,5%)",
+      "thumbnail": "https://www.onelab.com.ar/balanza-portatil-ohaus-cr2200-1-gr-2200-gr",
+      "image": "https://www.onelab.com.ar/images/thumbs/0016439_balanza-portatil-ohaus-cr2200-1-gr-2200-gr_510.jpeg",
+      "category": "Balanzas",
+      "stock": 27
+    },
+    {
+      "id": 4,
+      "name": "Balanza portátil CS5200 5.000 / 1gr.",
+      "price": "USD 323,33 + IVA (10,5%)",
+      "thumbnail": "https://www.onelab.com.ar/balanza-portatil-cs5200-5000-1gr",
+      "category": "Balanzas",
+      "image": "https://www.onelab.com.ar/images/thumbs/0012319_balanza-portatil-cs5200-5000-1gr.jpeg",
+      "stock": 41
+    },
+    {
+      "id": 5,
+      "name": "PCR-Cooler para placa 96-well 0,2 ml",
+      "price": "USD 134,06 + IVA (21%)",
+      "thumbnail": "https://www.onelab.com.ar/pcr-cooler-para-placa-96-well-02-ml",
+      "image": "https://www.onelab.com.ar/images/thumbs/0011430_pcr-cooler-para-placa-96-well-02-ml_510.jpeg",
+      "category": "Promociones",
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "name": "Micropipeta Sartorius Proline Plus 0,5-10 µl",
+      "price": "USD 263,12 + IVA (21%)",
+      "thumbnail": "https://www.onelab.com.ar/manejo-de-liquidos-micropipetas-mecanicas-728020",
+      "image": "https://www.onelab.com.ar/images/thumbs/0008361_micropipeta-sartorius-proline-plus-05-10-l.jpeg",
+      "category": "Manejo de Liquidos",
+      "stock": 15
+    }
+  ]
+}

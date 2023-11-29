@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --primary: #1f3e72;
+    --secondary: rgba(255, 255, 255, .78);
+    --black: #131110;
+    --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+    --blue: #4066ff;
+    --lightBlue: #eeeeff;
+    --shadow: 0px 23px 21px -8px rgba(136, 160, 255, .25);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    color: #fff;
+    background: var(--blue-gradient);
+    border: none;
+    border-radius: 4px;
+    transition: all .3s ease-in;
+    font-size: 18px;
+    line-height: 20px;
+}
+.primaryText {
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 2rem;
+} 
+.secondaryText {
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
+}
+.orangeText {
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.icon{
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons{
+    display: flex;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* STYLES ACCORDION */
+.accordion{
+    margin-top: 2rem;
+    border: none;
+    width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.accordionItem{
+    background-color: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.accordionItem.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+.accordionButton{
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon svg{
+    fill: #4066ff;
+}
+.accordionButton .primaryText{
+    font-size: 1.1rem;
+}
+.accordionPanel .secondaryText{
+    font-size: 1rem;
+    text-align:center;
+    padding: 1rem;
 }
