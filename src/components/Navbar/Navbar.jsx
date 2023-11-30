@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({ open }) => {
   return (
     <NavbarWrapper open={open}>
-      <Link to="/">Inicio</Link>
+      <Link to="/home">Inicio</Link>
       <Link to="">Categorias</Link>
       <Link to="/novedades">Novedades</Link>
       <Link to="/contacto">Contacto</Link>
