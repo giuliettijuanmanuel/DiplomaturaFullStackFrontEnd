@@ -14,12 +14,12 @@ const Navbar = ({ open }) => {
       </Link>
       <div className="icons">
         <Link to="">
-          <button className="icon">
+          <button className="btn">
             <i className="fa-solid fa-right-to-bracket"></i>
           </button>
         </Link>
         <Link to="">
-          <button className="icon">
+          <button className="btn">
             <i className="fa-solid fa-cart-shopping"></i>
           </button>
         </Link>

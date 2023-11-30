@@ -17,7 +17,6 @@ const Novedades = (props) => {
   }, []);
   return (
     <div>
-      <h2>Novedades</h2>
       {loading ? (
         <p>Cargando...</p>
       ) : (

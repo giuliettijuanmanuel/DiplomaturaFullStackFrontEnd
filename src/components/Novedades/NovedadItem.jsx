@@ -1,16 +1,17 @@
 import React from "react";
+import { NovedadesWrapper } from "../../styles/Novedades/Novedades";
 
 const NovedadItem = (props) => {
   const { title, subtitle, imagen, body } = props;
   return (
     <>
-      <div className="container">
+      <NovedadesWrapper>
         <h1>{title}</h1>
-        <h2>{subtitle}</h2>
-        <img src={imagen} />
+        <h4>{subtitle}</h4>
+        <img src={imagen} alt={title} />
         <div dangerouslySetInnerHTML={{ __html: body }} />
         <hr />
-      </div>
+      </NovedadesWrapper>
     </>
   );
 };
