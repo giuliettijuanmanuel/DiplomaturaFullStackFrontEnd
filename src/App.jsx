@@ -5,13 +5,14 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Novedades from "./components/Novedades/Novedades";
 import ContactForm from "./components/ContacForm/ContactForm";
-
+import ProductsItems from "./components/ProductItems/ProductsItems";
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/catalogo" element={<ProductsItems />} />
         <Route path="/novedades" element={<Novedades />} />
         <Route path="/contacto" element={<ContactForm />} />
       </Routes>

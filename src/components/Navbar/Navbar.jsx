@@ -5,25 +5,20 @@ import { Link } from "react-router-dom";
 const Navbar = ({ open }) => {
   return (
     <NavbarWrapper open={open}>
-      <Link to="/home">Inicio</Link>
-      <Link to="">Categorias</Link>
+      <Link to="/">Inicio</Link>
+      <Link to="/catalogo">Categorias</Link>
       <Link to="/novedades">Novedades</Link>
       <Link to="/contacto">Contacto</Link>
       <Link to="">
-        <button className="button">Email</button>
+        <button className="btn">
+          <i className="fa-solid fa-right-to-bracket"></i>
+        </button>
       </Link>
-      <div className="icons">
-        <Link to="">
-          <button className="btn">
-            <i className="fa-solid fa-right-to-bracket"></i>
-          </button>
-        </Link>
-        <Link to="">
-          <button className="btn">
-            <i className="fa-solid fa-cart-shopping"></i>
-          </button>
-        </Link>
-      </div>
+      <Link to="">
+        <button className="btn">
+          <i className="fa-solid fa-cart-shopping"></i>
+        </button>
+      </Link>
     </NavbarWrapper>
   );
 };
