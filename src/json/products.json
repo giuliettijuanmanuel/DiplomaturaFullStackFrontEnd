@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Propipeta automática DLab Levo Plus 0,1 - 100ml",
+      "name": "Propipeta automática DLab Levo Plus 0,1",
       "price": "USD 434,00 + IVA (21%)",
       "thumbnail": "https://www.onelab.com.ar/propipeta-automatica-dlab-levo-plus",
       "image": "https://www.onelab.com.ar/images/thumbs/0014238_propipeta-automatica-dlab-levo-plus-01-100ml_510.jpeg",
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "name": "Capsula de evaporación",
+      "name": "Capsula de evaporación con pico boro",
       "price": "USD 55,89 + IVA (21%)",
       "thumbnail": "https://www.onelab.com.ar/capsula-de-evaporacion",
       "image": "https://www.onelab.com.ar/images/thumbs/0006034_capsula-de-evaporacion_510.jpeg",
@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "name": "Cristalizador con pico",
+      "name": "Cristalizador con pico boro 1.5",
       "price": "USD 21,23 + IVA (21%)",
       "thumbnail": "https://www.onelab.com.ar/cristalizador-con-pico-2",
       "image": "https://www.onelab.com.ar/images/thumbs/0006036_cristalizador-con-pico_510.jpeg",
@@ -128,7 +128,7 @@
     },
     {
       "id": 15,
-      "name": "Balanza analítica 60gr / 0,01mg o 220gr / 0,1mg calibración interna",
+      "name": "Balanza analítica 60gr / 0,01mg o 220gr / 0,1mg",
       "price": "USD 12.021,03 + IVA (10,5%)",
       "thumbnail": "https://www.onelab.com.ar/balanza-analitica-60gr-001mg-o-220gr-01mg-calibracion-interna",
       "image": "https://www.onelab.com.ar/images/thumbs/0011593_balanza-analitica-60gr-001mg-o-220gr-01mg-calibracion-interna.jpeg",
@@ -137,7 +137,7 @@
     },
     {
       "id": 16,
-      "name": "Balanza de precisión Boeco BWL60 10kg, 100mg con calibracion externa",
+      "name": "Balanza de precisión BWL60 10kg, 100mg",
       "price": "USD 5.375,67 + IVA (10,5%)",
       "thumbnail": "https://www.onelab.com.ar/balanza-de-precision-basica-bwl-60",
       "image": "https://www.onelab.com.ar/images/thumbs/0003846_balanza-de-precision-boeco-bwl60-10kg-100mg-con-calibracion-externa.jpeg",
@@ -155,7 +155,7 @@
     },
     {
       "id": 18,
-      "name": "Pipeta electrónica DLab dPette, 1 canal volumen variable",
+      "name": "Pipeta electrónica dPette, 1 canal volumen variable",
       "price": "USD 1.632,15 + IVA (21%)",
       "thumbnail": "https://www.onelab.com.ar/pipeta-electronica-dragon-lab-1-canal-volumen-variable-a-seleccionar",
       "image": "https://www.onelab.com.ar/images/thumbs/0006596_pipeta-electronica-dlab-dpette-1-canal-volumen-variable.jpeg",
@@ -164,7 +164,7 @@
     },
     {
       "id": 19,
-      "name": "Pipeta Multidispensadora Multipette E3, 1 canal.,1 µL – 50 mL",
+      "name": "Pipeta Multidispensadora Multipette E3, 1 canal",
       "price": "USD 1.978,59 + IVA (21%)",
       "thumbnail": "https://www.onelab.com.ar/multipette-e3-con-adaptador-cargador-soporte-cargador-y-1-paquete-surtido-de-combitips-adv-100-240v50-60hz",
       "image": "https://www.onelab.com.ar/images/thumbs/0016165_pipeta-multidispensadora-multipette-e3-1-canal1-l-50-ml.jpeg",
@@ -173,7 +173,7 @@
     },
     {
       "id": 20,
-      "name": "Micropipeta automática Glassco 1 canal, volumen fijo",
+      "name": "Micropipeta automática Glassco, volumen fijo",
       "price": "USD 251,55 + IVA (21%)",
       "thumbnail": "https://www.onelab.com.ar/micropipeta-automatica-de-volumen-fijo",
       "image": "https://www.onelab.com.ar/images/thumbs/0006118_micropipeta-automatica-glassco-1-canal-volumen-fijo.jpeg",

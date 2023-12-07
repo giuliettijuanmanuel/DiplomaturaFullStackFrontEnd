@@ -11,6 +11,10 @@ export const ContactWrapper = styled.form`
   h2 {
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Row = styled.div`
@@ -50,6 +54,11 @@ export const Info = styled.div`
   max-width: 1280px;
   margin: auto;
   margin-top: 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0.3rem 0.5rem;
+  }
 `;
 
 export const ContactInfo = styled.div`
@@ -68,6 +77,11 @@ export const ContactInfo = styled.div`
     justify-content: center;
     height: 100%;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    border-radius: 5px;
+  }
 `;
 
 export const Map = styled.div`
@@ -77,5 +91,10 @@ export const Map = styled.div`
   > iframe {
     width: 100%;
     height: 400px;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    border-radius: 5px;
   }
 `;
