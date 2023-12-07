@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const NovedadesWrapper = styled.div`
-  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 1rem 2.5rem;
   text-align: justify;
   display: flex;
