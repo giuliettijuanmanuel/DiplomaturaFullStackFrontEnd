@@ -61,6 +61,9 @@
     display: flex;
     align-items: center;
 }
+.msg{
+    color: green;
+}
 
 /* STYLES ACCORDION */
 .accordion{

@@ -83,7 +83,7 @@ const ContactForm = (props) => {
         />
         <Button>Enviar</Button>
         {sending ? <p>Enviando...</p> : null}
-        {msg ? <p>{msg}</p> : null}
+        {msg ? <p className="msg">{msg}</p> : null}
       </ContactWrapper>
       <Info>
         <ContactInfo>

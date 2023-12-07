@@ -6,7 +6,7 @@ const Navbar = ({ open }) => {
   return (
     <NavbarWrapper open={open}>
       <Link to="/">Inicio</Link>
-      <Link to="/catalogo">Categorias</Link>
+      <Link to="/catalogo">Catalogo</Link>
       <Link to="/novedades">Novedades</Link>
       <Link to="/contacto">Contacto</Link>
       <Link to="">
